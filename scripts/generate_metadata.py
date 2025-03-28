@@ -2,7 +2,7 @@ import os
 
 def generate_metadata(audio_folder, transcript_folder, output_csv):
     """
-    Generates metadata.csv by mapping audio chunks to their corresponding transcripts.
+    Generates metadata.csv by mapping audio chunks to their corresponding transcripts (audio chunks + split transcripts).
     """
     metadata = []
 
