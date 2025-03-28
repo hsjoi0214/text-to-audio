@@ -1,6 +1,6 @@
 import os
 
-transcript_folder = "data/transcripts"
+transcript_folder = "data/transcripts/long_transcripts"
 output_path = "data/transcripts/transcripts.txt"
 
 with open(output_path, "w") as outfile:
